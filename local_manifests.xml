@@ -12,13 +12,23 @@
 	
 	<remote name="line"
 		fetch="https://github.com/LineageOS" />
-	
+
+
+	 <remote name="pe"
+		fetch="https://github.com/PixelExperience" />
 
 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="11-xd-caf" clone-depth="1" />
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk134" revision="11" clone-depth="1" />
 	<project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="BlackSuan" revision="darky" clone-depth="1" />
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
-	
+
+
+	<remove-project="hardware/qcom-caf/msm8996/audio" />
+	<project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996-r_audio" revision="eleven" remote="pe" />
+
+        
+        <remove-project="hardware/qcom-caf/msm8996/media" />
+	<project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996-r_media" revision="eleven" remote="pe" />
 
 	<project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" revision="lineage-18.1" remote="line" />
 	
