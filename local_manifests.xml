@@ -19,11 +19,17 @@
 
 	 <remote name="pe"
 		fetch="https://github.com/PixelExperience" />
+	
+	<remote name="camera"
+		fetch="https://github.com/Fussion-Lab" />
 
 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="11-SSOS" clone-depth="1" />
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk134" revision="11-SSOS" clone-depth="1" />
 	<project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="BlackSuan" revision="darky" clone-depth="1" />
 	<project path="packages/apps/GamingMode" name="packages_apps_GamingMode" remote="evo" revision="elle" />
+	
+	<remove-project name="android_hardware_qcom_camera" />
+	<project path="hardware/qcom-caf/camera" name="android_hardware_qcom_camera" remote="camera" revision="ruby-89xx" />
 	
 	<remove-project name="android_hardware_qcom_media" />
 	<remove-project name="android_hardware_qcom_audio" />
