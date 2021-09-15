@@ -18,7 +18,7 @@
 		fetch="https://github.com/PixelExperience" />
 
 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="11-DotOS" clone-depth="1" />
-	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk134" revision="arrow2" clone-depth="1" />
+	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk134" revision="11-dot" clone-depth="1" />
 	<project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="BlackSuan" revision="darky" clone-depth="1" />
 	
 	<remove-project name="android_hardware_qcom_media" />
