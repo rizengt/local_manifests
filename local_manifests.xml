@@ -21,6 +21,8 @@
 		fetch="https://github.com/gamehackerever" />
 	<remote  name="leneg"
 		fetch="https://github.com/LineageOS" />
+	<remote name ="project404"
+		fetch="https://github.com/P-404" />
 
 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="11-xd-caf-outdated" clone-depth="1" />
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk134" revision="arrow2" clone-depth="1" />
