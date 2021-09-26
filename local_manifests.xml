@@ -12,10 +12,15 @@
 	
 	<remote name="line"
 		fetch="https://github.com/LineageOS" />
-
+	<remote  name="Chuck439"
+           fetch="https://github.com/Chuck439" />
 
 	 <remote name="pe"
 		fetch="https://github.com/PixelExperience" />
+	<remote name="sar"
+		fetch="https://github.com/gamehackerever" />
+	<remote  name="leneg"
+		fetch="https://github.com/LineageOS" />
 
 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="11-xd-caf-testing" clone-depth="1" />
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk134" revision="arrow2" clone-depth="1" />
@@ -26,11 +31,22 @@
 	<remove-project name="android_hardware_qcom_media" />
 	<remove-project name="android_hardware_qcom_audio" />
 	<remove-project name="android_hardware_qcom_display" />
-	<remove-project name="xd_vendor_qcom_opensource_power" />
+	<remove-project name="hw_audio" />
+	<remove-project name="hw_display" />
+	<remove-project name="hw_media" />
+	<remove-project name="xd_device_qcom_common" />
+	<project name="android_device_qcom_common" path="device/qcom/common" remote="project404" revision="rippa" clone-depth="1" />
 	
-	<project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996-r_audio" remote="pe" revision="eleven" />
-	<project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996-r_display" remote="pe" revision="eleven" />
-	<project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996-r_media" remote="pe" revision="eleven" />
-	<project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" revision="lineage-18.1" remote="line" />
+	<remove-project name="xd_vendor_xdroid" />
+	<project path="vendor/xdroid" name="xd_vendor_xdroid"  remote="Chuck439" revision="eleven" />
+	<remove-project name="xd_frameworks_native"  />
+	<project path="frameworks/native"  name="xd_frameworks_native" remote="Chuck439"  revision="eleven" />
+	
+	<!--hals-->
+	
+	<project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="Chuck439" revision="lineage-18.1-caf-msm8996"/>
+	<project path="hardware/qcom-caf/msm8996/audio"  name="android_hardware_qcom_audio"  remote="leneg"  revision="lineage-18.1-caf-msm8996" />
+	<project path="hardware/qcom-caf/msm8996/media"  name="android_hardware_qcom_media"  remote="leneg"  revision="lineage-18.1-caf-msm8996" />
+	<project path="external/ant-wireless/antradio-library"  name="android_external_ant-wireless_antradio-library"  remote="leneg" revision="lineage-18.1" />
 	
 </manifest>
