@@ -22,7 +22,7 @@
 	<remote  name="leneg"
 		fetch="https://github.com/LineageOS" />
 
-	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="11-xd-caf-testing" clone-depth="1" />
+	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="11-xd-caf-outdated" clone-depth="1" />
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk134" revision="arrow2" clone-depth="1" />
 	<project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="BlackSuan" revision="darky" clone-depth="1" />
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
