@@ -39,10 +39,7 @@
 	<remove-project name="xd_device_qcom_common" />
 	<project name="android_device_qcom_common" path="device/qcom/common" remote="project404" revision="rippa" clone-depth="1" />
 	
-	<remove-project name="xd_vendor_xdroid" />
-	<project path="vendor/xdroid" name="xd_vendor_xdroid"  remote="Chuck439" revision="eleven" />
-	<remove-project name="xd_frameworks_native"  />
-	<project path="frameworks/native"  name="xd_frameworks_native" remote="Chuck439"  revision="eleven" />
+	
 	
 	<!--hals-->
 	
