@@ -13,6 +13,9 @@
 	<remote name="line"
 		fetch="https://github.com/LineageOS" />
 
+	
+	<remote name="rk1345"
+		fetch="https://github.com/rxhulkxnt44" />
 
 	 <remote name="pe"
 		fetch="https://github.com/PixelExperience" />
