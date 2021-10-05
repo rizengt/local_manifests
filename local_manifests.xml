@@ -23,6 +23,9 @@
 	<project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="BlackSuan" revision="darky" clone-depth="1" />
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 
+	<remove-project name="xd_frameworks_native"  />
+        <project path="frameworks/native"  name="xd_frameworks_native" remote="Chuck439"  revision="eleven" />
+
 	
 	
 	<project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="line" revision="lineage-18.1-caf-msm8996"/>
