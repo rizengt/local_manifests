@@ -22,9 +22,8 @@
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk1345" revision="aex2" clone-depth="1" />
 	<project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="BlackSuan" revision="darky" clone-depth="1" />
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
-
 	<remove-project name="xd_frameworks_native"  />
-        <project path="frameworks/native"  name="xd_frameworks_native" remote="Chuck439"  revision="eleven" />
+	<project path="frameworks/native"  name="xd_frameworks_native" remote="Chuck439"  revision="eleven" />
 
 	
 	
