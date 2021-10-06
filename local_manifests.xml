@@ -20,7 +20,7 @@
 	 <remote name="pe"
 		fetch="https://github.com/PixelExperience" />
 	<remote name="unitrix"
-		fetch="https://https://github.com/GhostMaster69-dev" />
+		fetch="https://github.com/GhostMaster69-dev" />
 	
 
 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk1345" revision="cipher" clone-depth="1" />
