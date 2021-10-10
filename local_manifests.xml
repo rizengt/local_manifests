@@ -29,6 +29,7 @@
 	<remove-project name="LineageOS/android_hardware_qcom_media" />
 	<remove-project name="LineageOS/android_hardware_qcom_audio" />
 	<remove-project name="LineageOS/android_hardware_qcom_display" />
+	<remove-project name="device/generic/opengl-transport" />
 	
 	<project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996-r_audio" remote="pe" revision="eleven" />
 	<project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996-r_display" remote="pe" revision="eleven" />
