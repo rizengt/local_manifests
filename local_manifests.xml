@@ -15,8 +15,6 @@
 	
 	<remote name="line"
 		fetch="https://github.com/LineageOS" />
-	<remote  name="Chuck439"
-           fetch="https://github.com/Chuck439" />
 
 	 <remote name="pe"
 		fetch="https://github.com/PixelExperience" />
@@ -36,6 +34,13 @@
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 	
 	<!--hals-->
+	<remove-project name="xd_hardware_qcom-caf_media" />
+	<remove-project name="xd_hardware_qcom-caf_display" />
+	<remove-project name="xd_hardware_qcom-caf_audio" />
+	
+	<remove-project name="platform/packages/modules/Virtualization" />
+	<remove-project name="platform/external/e2fsprogs" />
+      	<remove-project name="platform/external/gptfdisk" />
 	
 	<project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996-r_audio" remote="pe" revision="eleven" />
 	<project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996-r_display" remote="pe" revision="eleven" />
