@@ -4,6 +4,9 @@
 	<remote name="rk134"
 		fetch="https://github.com/rk134" />
 	
+	<remote name="rk1345"
+		fetch="https://github.com/rxhulkxnt44" />
+	
 	<remote name="BlackSuan"
 		fetch="https://github.com/Blacksuan19" />
 	
@@ -17,35 +20,26 @@
 
 	 <remote name="pe"
 		fetch="https://github.com/PixelExperience" />
+	
 	<remote name="sar"
 		fetch="https://github.com/gamehackerever" />
+	
 	<remote  name="leneg"
 		fetch="https://github.com/LineageOS" />
+	
 	<remote name ="project404"
 		fetch="https://github.com/P-404" />
 
-	<project path="device/xiaomi/vince" name="device_xiaomi_vince-1" remote="rk134" revision="11-xd-caf" clone-depth="1" />
-	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince-1" remote="rk134" revision="derp-11" clone-depth="1" />
+	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk1345" revision="xdroidsp" clone-depth="1" />
+	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk1345" revision="arrow-12.0" clone-depth="1" />
 	<project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="BlackSuan" revision="darky" clone-depth="1" />
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
-
-
-	<remove-project name="android_hardware_qcom_media" />
-	<remove-project name="android_hardware_qcom_audio" />
-	<remove-project name="android_hardware_qcom_display" />
-	<remove-project name="hw_audio" />
-	<remove-project name="hw_display" />
-	<remove-project name="hw_media" />
-	<remove-project name="xd_device_qcom_common" />
-	<project name="android_device_qcom_common" path="device/qcom/common" remote="project404" revision="rippa" clone-depth="1" />
-	
-	
 	
 	<!--hals-->
 	
-	<project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="leneg" revision="lineage-18.1-caf-msm8996"/>
-	<project path="hardware/qcom-caf/msm8996/audio"  name="android_hardware_qcom_audio"  remote="leneg"  revision="lineage-18.1-caf-msm8996" />
-	<project path="hardware/qcom-caf/msm8996/media"  name="android_hardware_qcom_media"  remote="leneg"  revision="lineage-18.1-caf-msm8996" />
+	<project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996-r_audio" remote="pe" revision="eleven" />
+	<project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996-r_display" remote="pe" revision="eleven" />
+	<project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996-r_media" remote="pe" revision="eleven" />
 	<project path="external/ant-wireless/antradio-library"  name="android_external_ant-wireless_antradio-library"  remote="leneg" revision="lineage-18.1" />
 	
 </manifest>
